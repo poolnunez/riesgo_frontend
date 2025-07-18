@@ -16,7 +16,7 @@ function Login() {
         try {
             // Envía las credenciales al backend para obtener un token de acceso
             const response = await axios.post(
-                'http://localhost:8000/token',
+                'https://riesgo-backend.onrender.com/token',
                 new URLSearchParams({
                     username: emailOrUsername,
                     password: password,
