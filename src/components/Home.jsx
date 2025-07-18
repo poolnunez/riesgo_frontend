@@ -8,7 +8,7 @@ function Home() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     const username = localStorage.getItem('username') || 'Invitado';
-    const profilePicUrl = localStorage.getItem('profilePicUrl') || `https://via.placeholder.com/50/6a1aab/FFFFFF?text=${username.charAt(0).toUpperCase()}`;
+    const profilePicUrl = localStorage.getItem('profilePicUrl') || `https://web4.unfv.edu.pe/ocbu/reserva_alumnos/Home/GetImage?Cod=2023024011`;
 
     // Revisa el estado de autenticación al cargar el componente
     useEffect(() => {
